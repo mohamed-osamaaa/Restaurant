@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiperJs/swiper-bundle.min.css" />
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="css/fontawesome-free-6.1.2-web/css/all.css">
+
+    <!-- link file Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurant</title>
+</head>
+
+<body>
+
+    <div class="reservation" id="reservation">
+        <div class="res-bg">
+            <i id="closeResrv" class="fas fa-bars fa-times"></i>
+            <div class="text">
+                <h3>Book A Table</h3>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="Full Name">
+
+                <input type="number" placeholder="Phone Number">
+
+                <input type="email" placeholder="Email">
+
+                <input type="text" placeholder="How Many">
+
+                <input type="date" placeholder="Booking Date">
+
+                <input type="time">
+
+                <textarea name="" id="" cols="30" rows="2" placeholder="Add A Special Request (Optional)"></textarea>
+
+            </form>
+
+            <button class="btn">find table</button>
+        </div>
+    </div>
+
+
+    <header class="header" id="header">
+        <nav>
+            <a class="logo" href="#">Restaurant</a>
+            <i id="openMenu" class="fas fa-bars"></i>
+            <a href="#"><i id="book" class="fa-solid fa-utensils btnresrv"></i></a>
+            <div class="menu">
+                <ul>
+
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+                <span class="btn drak btnresrv">RESERVATION</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1 bg-overlay">
+                    <div class="content">
+                        <h3>Made With Love</h3>
+                        <h1>Hot and Ready to Serve</h1>
+                        <p>Restaurant is a restaurant, bar and coffee roastery located on Egypt. We have<br>
+                            awesome recipes and the most talented chefs in town! </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2 bg-overlay">
+                    <div class="content">
+                        <h3>Restaurant Offers You</h3>
+                        <h1>The Best Tasting Experience!</h1>
+                        <a href="#" class="btn btnresrv">GET A RESERVATION Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide3 bg-overlay">
+                    <div class="content">
+                        <h3>Hello, We Are Restaurant</h3>
+                        <h1>We Serve Quality Food</h1>
+                        <a href="#menu" class="btn">View Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+        </div>
+    </div>
+
+    <!-- about start -->
+    <section class="about" id="about">
+        <div class="contanier">
+            <div class="sec-head">
+                <span>Hello dear</span>
+                <h2>Welcome To Restaurant</h2>
+                <img src="img/shape-4.png" alt="">
+            </div>
+            <div class="content">
+                <div class="div-p">
+                    <p>Restaurant was the first retaurant to open in Egypt, the resturant was designed with the history
+                        in mind we have created a soft industrial dining room, combined with an open kitchen, coffee
+                        take out bar and coffee roastery.</p>
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <span>1995</span>
+                        <h3>Grand Opening</h3>
+                        <img src="img/shape-13.png" alt="">
+                        <p>Restaurant was opened in May 6, 1990, the interior was created by the most famous artists.
+                            Today our restaurant welcomes 250 people!</p>
+                    </div>
+                    <div class="box">
+                        <span>2005</span>
+                        <h3>Second Branch</h3>
+                        <img src="img/shape-13.png" alt="">
+                        <p>Since the very first day, Restaurant was a gathering place for teachers, doctors, actors.
+                            Therefore we decided to open our second branch!</p>
+                    </div>
+                    <div class="box">
+                        <span>2015</span>
+                        <h3>Great Taste Award</h3>
+                        <img src="img/shape-13.png" alt="">
+                        <p>Restaurant was and still remains not just a restaurant, but also a remarkable part of the
+                            culture. We are happy to announce that we claim tate award.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <section class="recipes" id="recipes">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural ingredients</span>
+                <h2>Delicious Recipes</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+        <div class="contanier">
+
+
+
+            <div class="boxs">
+                <div class="box">
+                    <img src="img/1.jpg" alt="">
+                    <span>Start eating better</span>
+                    <h4>Daily New Fresh Menus</h4>
+                    <p>Restaurant help you treat yourself with a different meal everyday, thanks to our daily changing
+                        menus and our awesome creative chefs!</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/2.jpg" alt="">
+                    <span>Quality is the heart</span>
+                    <h4>Fresh Ingredient, Tasty Meals</h4>
+                    <p>Who said healthy food can't also be delicious? Restaurant creative chefs use fresh and seasonal
+                        ingredients to make affordable.</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/3.jpg" alt="">
+                    <span>Hot & ready to serve</span>
+                    <h4>Creative & Talented Chefs</h4>
+                    <p>Restaurant have offered a team of culinary professionals that make delectable dishes at memorable
+                        events for both private clientele.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu start -->
+    <section class="sec-menu" id="menu">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Taste the best</span>
+                <h2>Discover Our Menu</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+
+        <div class="contanier">
+
+            <div class="content">
+                <ul>
+                    <li class="active">lunch</li>
+                    <li>dinner</li>
+                    <li>dessert</li>
+                    <li>drinks</li>
+                </ul>
+            </div>
+
+            <div class="boxs">
+
+                <div class="box">
+                    <img src="img/13.jpg">
+                    <div class="name-price">
+                        <h3>Grilled Fillet</h3>
+                        <span>$12.95</span>
+                    </div>
+                    <p>eggs, bacon and cherry-tomatoes with bread.</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/14.jpg">
+                    <div class="name-price">
+                        <h3>Grilled Fillet</h3>
+                        <span>$19.95</span>
+                    </div>
+                    <p>Oat granola with fresh blueberries, almond, yogurt.</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/15.jpg">
+                    <div class="name-price">
+                        <h3>Chicken Breast</h3>
+                        <span>$14.95</span>
+                    </div>
+                    <p>Applewood smoked bacon, tomatoes & green</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/16.jpg">
+                    <div class="name-price">
+                        <h3>Sea Trout</h3>
+                        <span>$15.95</span>
+                    </div>
+                    <p>eggs, bacon and cherry-tomatoes with bread.</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/17.jpg">
+                    <div class="name-price">
+                        <h3>Smoked Paprika Hummus</h3>
+                        <span>$12.95</span>
+                    </div>
+                    <p>eggs, bacon and cherry-tomatoes with bread.</p>
+                </div>
+
+                <div class="box">
+                    <img src="img/18.jpg">
+                    <div class="name-price">
+                        <h3>Roasted Steak Roulade</h3>
+                        <span>$20.95</span>
+                    </div>
+                    <p>eggs, bacon and cherry-tomatoes with bread.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Discover Full menu</a>
+
+        </div>
+
+
+    </section>
+
+    <!-- team start -->
+    <section class="team" id="team">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Ready to serve</span>
+                <h2>Talented Chefs</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+
+        <div class="contanier">
+            <div class="boxs">
+                <div class="box">
+                    <div class="img-text">
+                        <img class="img-w" src="img/1-chef.jpg" alt="">
+                        <div class="text">
+                            <div class="cont-text">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and
+                                    service at an early age.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h5>Todd Stephen</h5>
+                        <p>CEO & Founder</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img-text">
+                        <img class="img-w" src="img/2-chef.jpg" alt="">
+                        <div class="text">
+                            <div class="cont-text">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and
+                                    service at an early age.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h5>Walter Adler</h5>
+                        <p>Master Chef</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="img-text">
+                        <img class="img-w" src="img/3-chef.jpg" alt="">
+                        <div class="text">
+                            <div class="cont-text">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and
+                                    service at an early age.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h5>James Carter</h5>
+                        <p>Thai Master Chef</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img-text">
+                        <img class="img-w" src="img/4-chef.jpg" alt="">
+                        <div class="text">
+                            <div class="cont-text">
+                                <div class="social">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and
+                                    service at an early age.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h5>Michael Luke</h5>
+                        <p>Chinese Master Chef</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="guest-book" id="guest-book">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>People talk</span>
+                <h2>Our Guestbook</h2>
+            </div>
+            <div class="contanier">
+                <div class="swiper mySwiper swiper-gst-bk">
+                    <div class="swiper-wrapper our-gst">
+
+                        <div class="swiper-slide slide">
+
+                            <img class="ribbon" src="img/ribbon.png" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate aut
+                                magniofficiis distinctio nemo labore quia delectus.</h5>
+                            <img class="img-ourbk" src="img/blog2.png">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+
+                            <img class="ribbon" src="img/ribbon.png" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate aut
+                                magniofficiis distinctio nemo labore quia delectus.</h5>
+                            <img class="img-ourbk" src="img/blog2.png">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+
+                            <img class="ribbon" src="img/ribbon.png" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate aut
+                                magniofficiis distinctio nemo labore quia delectus.</h5>
+                            <img class="img-ourbk" src="img/blog2.png">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+
+                            <img class="ribbon" src="img/ribbon.png" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate aut
+                                magniofficiis distinctio nemo labore quia delectus.</h5>
+                            <img class="img-ourbk" src="img/blog2.png">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+
+                            <img class="ribbon" src="img/ribbon.png" alt="">
+
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit cupiditate aut
+                                magniofficiis distinctio nemo labore quia delectus.</h5>
+                            <img class="img-ourbk" src="img/blog2.png">
+                            <p>Lorem, ipsum.</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="swiper-pagination swp-pag"></div>
+            </div>
+
+            <div class="arrow-bottom"></div>
+        </div>
+
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="mg-box">
+            <div class="contanier">
+                <div class="links list">
+                    <h4>Follow Us</h4>
+                    <div class="box-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="text list">
+                    <h2>Restaurant</h2>
+                    <p>Restaurant In has the perfect place to enjoy fine food and great cocktails with excellent
+                        service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an
+                        open kitchen, coffee take out bar.</p>
+
+                </div>
+                <div class="news list">
+                    <h4>Neswletter</h4>
+                    <div class="inpt">
+                        <input type="email" placeholder="Subscribe Our Newsletter">
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copy-right">
+                <p> ELAhwal , Qena, Egypt</p>
+                <p>Make In © 2023, With Love by <span>Mohamed Osama</span></p>
+            </div>
+        </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="swiperJs/swiper-bundle.min.js"></script>
+    <!-- link file JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
