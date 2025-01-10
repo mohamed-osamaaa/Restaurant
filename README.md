@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/5de7f39a-ee8e-47b3-8176-32062730a35e
 
 
 
-```markdown
+
 # Restaurant Website
 
 This is a fully responsive Restaurant Website built using HTML, CSS, and JavaScript. The website is designed with various sections, including a navigation bar, home page, about section, recipes, menu, team, guest book, and reservation functionality. The layout and styling are made with Tailwind CSS and Shadcn UI, making it both user-friendly and visually appealing.
